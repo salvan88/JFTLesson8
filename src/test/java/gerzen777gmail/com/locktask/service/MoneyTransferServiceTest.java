@@ -30,7 +30,6 @@ class MoneyTransferServiceTest {
 
         for (Future<Long> future : futures) {
             future.get();
-
         }
 
 
