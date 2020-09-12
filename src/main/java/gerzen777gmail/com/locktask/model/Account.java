@@ -7,6 +7,7 @@ public class Account {
     public Account(Long id, Long balance) {
         this.id = id;
         this.balance = balance;
+
     }
 
     public Long getId() {

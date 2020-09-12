@@ -24,8 +24,7 @@ public class MoneyTransferService {
             locksMap.put(from.getId(), second);
         }
 
-
-        locksMap.putIfAbsent(from.getId(),first).lock();
+        locksMap.putIfAbsent(from.getId(), first).lock();
 
         try {
 
